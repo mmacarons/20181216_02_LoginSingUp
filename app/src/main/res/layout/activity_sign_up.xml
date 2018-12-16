@@ -26,6 +26,7 @@
         android:background="#ffffff">
 
         <CheckBox
+            android:id="@+id/allCheckBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="모두 동의"/>
@@ -42,6 +43,7 @@
         android:background="#ffffff">
 
         <CheckBox
+            android:id="@+id/moneyCheckBox"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:layout_width="wrap_content"
@@ -56,6 +58,7 @@
             android:background="#EBEBEB"/>
 
         <CheckBox
+            android:id="@+id/agreementCheckBox"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:layout_width="wrap_content"
@@ -70,6 +73,7 @@
         android:layout_weight="1"/>
 
     <Button
+        android:id="@+id/nextBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#1CB0D3"
