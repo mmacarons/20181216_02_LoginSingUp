@@ -76,6 +76,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/signUpTxt"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="15dp"
         android:layout_width="wrap_content"
